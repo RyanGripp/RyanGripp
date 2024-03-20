@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.d7e81699.css",
-    "main.js": "/static/js/main.891f2edc.js",
-    "index.html": "/index.html",
-    "main.d7e81699.css.map": "/static/css/main.d7e81699.css.map",
-    "main.891f2edc.js.map": "/static/js/main.891f2edc.js.map"
+    "main.css": "/ryangripp.github.io/static/css/main.d7e81699.css",
+    "main.js": "/ryangripp.github.io/static/js/main.891f2edc.js",
+    "index.html": "/ryangripp.github.io/index.html",
+    "main.d7e81699.css.map": "/ryangripp.github.io/static/css/main.d7e81699.css.map",
+    "main.891f2edc.js.map": "/ryangripp.github.io/static/js/main.891f2edc.js.map"
   },
   "entrypoints": [
     "static/css/main.d7e81699.css",
