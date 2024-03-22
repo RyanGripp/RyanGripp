@@ -3,8 +3,17 @@ import './home.css';
 function Home(){
     return(
         <div className="main">
+            {/* <FontAwesomeIcon icon="fa-brands fa-linkedin" /> */}
+            <div className='inicio'>
+                <img src='/RyanGripp/SelfImage.jpg' alt='' className='selfimage'/>
+                <h2 className='nome'>Ryan Gripp da Silva</h2>
+                <div className='contato'>
+                    <a target='blank' href='https://www.linkedin.com/in/ryan-gripp-da-silva-b430142b8/'>LinkedIn</a>
+                    <a href='https://github.com/RyanGripp'>GitHub</a>
+                </div>
+            </div>
             <div className='projeto'>
-                <img src='filmes.png'/>
+                <img src='/RyanGripp/filmes.png' alt='' />
                 <h3>Projeto de filmes utilizando ReactJS</h3>
                 <p> Este projeto exibe uma seleção de filmes atualmente em catálogo, 
                     fornecendo uma variedade de informações sobre cada filme. Esses dados 
