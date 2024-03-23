@@ -1,16 +1,68 @@
 .inicio {
     display: flex;
     justify-content: space-between;
-    width: 60%;
-    margin: 30px auto;
+    width: 900px;
+    margin: 90px auto 30px auto;
     padding: 20px;
+    z-index: 1000;
 }
 
-.inicio .selfimage{
-    max-width: 300px;
+.inicio .selfimage, .inicio .contato {
+    flex: 1;
+}
+
+.inicio .selfimage {
+    margin: 70px 0 40px 0;
+}
+
+.inicio .selfimage img{
+    width: 100%;
     border-radius: 45%;
+    transition: all 500ms ease-out;
 }
 
+.inicio .selfimage img:hover {
+    transform: scale(1.1);
+}
+
+.inicio .nome {
+    flex: 2;
+}
+
+.inicio .nome h2{
+    font-size: 45px;
+    text-align: center;
+    color: rgba(16, 30, 71);
+    font-family: Brush Script MT;
+}
+
+.inicio .contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.inicio .contato a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inicio .contato a {
+    text-decoration: none;
+}
+
+.inicio .contato a i {
+    font-size: 50px;
+}
+
+.inicio .contato .linkedin {
+    color: #0a66c2;
+}
+
+.inicio .contato .github {
+    color: #000;
+}
 
 .projeto {
     display: flex;
