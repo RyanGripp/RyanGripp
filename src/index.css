@@ -1,3 +1,7 @@
+:root {
+  --azul-marinho: rgba(16, 30, 71);
+}
+
 *{
   margin: 0;
   padding: 0;

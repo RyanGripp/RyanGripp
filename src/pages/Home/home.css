@@ -1,3 +1,7 @@
+/* .fundo-azul{
+    background-color: var(--azul-marinho);
+} */
+
 .inicio {
     display: flex;
     justify-content: space-between;
@@ -12,7 +16,9 @@
 }
 
 .inicio .selfimage {
-    margin: 70px 0 40px 0;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
 }
 
 .inicio .selfimage img{
@@ -32,8 +38,14 @@
 .inicio .nome h2{
     font-size: 45px;
     text-align: center;
-    color: rgba(16, 30, 71);
+    color: var(--azul-marinho);
     font-family: Brush Script MT;
+    margin-bottom: 20px;
+}
+
+.inicio .nome p {
+    font-size: 18px;
+    text-align: justify;
 }
 
 .inicio .contato {
