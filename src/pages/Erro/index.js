@@ -1,5 +1,5 @@
 import {Link} from 'react-router-dom';
-import './erro.css';
+import './erro.scss';
 
 function Erro(){
     return(

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './header.css';
+import './header.scss';
 
 function Header() {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -26,8 +26,8 @@ function Header() {
                 <a href='#projetos'>Projetos</a>
             </nav>
             <nav className={`nav-redes${isScrolled ? ' nav-show' : ''}`}>
-                <a href='https://www.linkedin.com/in/ryan-gripp-da-silva-b430142b8/'><i class="fa-brands fa-linkedin-in"></i></a>
-                <a href='https://github.com/RyanGripp'><i class="fa-brands fa-github"></i></a>
+                <a target='blank' href='https://www.linkedin.com/in/ryan-gripp-da-silva-b430142b8/'><i class="fa-brands fa-linkedin-in"></i></a>
+                <a target='blank' href='https://github.com/RyanGripp'><i class="fa-brands fa-github"></i></a>
             </nav>
         </header>
     );
