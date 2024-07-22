@@ -4,10 +4,10 @@ function Home() {
     return (
         <div className="main">
             <div className='inicio'>
-                <div className='selfimage'>
-                    <img src='/RyanGripp/SelfImage.jpg' alt='' />
+                <div className='perfil-img'>
+                    <img src='/RyanGripp/img/foto.jpg' alt='' />
                 </div>
-                <div className='nome'>
+                <div className='apresentacao'>
                     <h2>Ryan Gripp da Silva</h2>
                     <p>Olá, sou um desenvolvedor web com formação em Técnico em Informática pelo CEFET/RJ e atualmente estou
                         cursando Bacharelado em Sistemas de Informação, também no CEFET/RJ.
@@ -32,24 +32,45 @@ function Home() {
                 </div>
             </div>
             <div className='projetos'>
-                <div className='projeto-card'>
-                    <img src='/RyanGripp/filmes.png' alt='' />
-                    <h3>Projeto de filmes utilizando ReactJS</h3>
-                    <p> 
-                        Este projeto exibe uma seleção de filmes atualmente em catálogo,
-                        fornecendo uma variedade de informações sobre cada filme. Esses dados
-                        foram obtidos através de uma API disponível em: <a target='blank'
-                            rel='external' href='https://api.themoviedb.org/'>https://api.themoviedb.org/</a>.
-                        O projeto permite aos usuários buscar os filmes através da barra de pesquisa, 
-                        acessar páginas individuais para cada filme e adicionar e remover dos favoritos, 
-                        que são armazenados localmente utilizando o LocalStorage do navegador.
-                    </p>
-                    <a className='ver-projeto' target='blank' rel='external' href='https://ryangripp-filmes.netlify.app/'>
-                        Ver Projeto
-                    </a>
-                    <a className='ver-repositorio' target='blank' rel='external' href='https://github.com/RyanGripp/Api-Filmes'>
-                        Ver Repositório
-                    </a>
+                <h2 className='titulo'>Projetos</h2>
+                <div className='projetos-container'>
+                    <div className='projeto-card'>
+                        <img src='/RyanGripp/img/projeto-filmes.png' alt='' />
+                        <h3>Projeto de filmes utilizando ReactJS</h3>
+                        <p>
+                            Este projeto exibe uma seleção de filmes atualmente em catálogo,
+                            fornecendo uma variedade de informações sobre cada filme. Esses dados
+                            foram obtidos através de uma API disponível em: <a target='blank'
+                                rel='external' href='https://api.themoviedb.org/'>https://api.themoviedb.org/</a>.
+                            O projeto permite aos usuários buscar os filmes através da barra de pesquisa,
+                            acessar páginas individuais para cada filme e adicionar e remover dos favoritos,
+                            que são armazenados localmente utilizando o LocalStorage do navegador.
+                        </p>
+                        <a className='ver-projeto' target='blank' rel='external' href='https://ryangripp-filmes.netlify.app/'>
+                            Ver Projeto
+                        </a>
+                        <a className='ver-repositorio' target='blank' rel='external' href='https://github.com/RyanGripp/Api-Filmes'>
+                            Ver Repositório
+                        </a>
+                    </div>
+
+                    <div className='projeto-card'>
+                        <img src='/RyanGripp/img/projeto-cadastra.png' alt='' />
+                        <h3>Projeto de Loja de Roupas</h3>
+                        <p>
+                            Este projeto consiste em um teste que eu fiz para uma vaga de desenvolvedor front-end na empresa Cadastra,
+                            onde eu tive que desenvolver uma loja de roupas utilizando TypeScript, HTML e CSS, sendo totalmente 
+                            responsivo para cada tamanho de tela. O projeto mostra as roupas disponíveis e permite ao usuário 
+                            ordená-las por preço e data, filtrar por cor, tamanho e preço, que são pegos dinamicamente de todos 
+                            os produtos do banco de dados, além de permitir adicionar e remover do carrinho.
+                        </p>
+                        <a className='ver-projeto' target='blank' rel='external' href='https://ryangripp-cadastra.netlify.app/'>
+                            Ver Projeto
+                        </a>
+                        <a className='ver-repositorio' target='blank' rel='external' href='https://github.com/RyanGripp/desenvolvedor-cadastra'>
+                            Ver Repositório
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

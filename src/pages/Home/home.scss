@@ -6,7 +6,7 @@
     padding: 20px;
     z-index: 1000;
 
-    .selfimage {
+    .perfil-img {
         display: flex;
         flex: 1;
         align-items: center;
@@ -23,19 +23,19 @@
         }
     }
 
-    .nome {
+    .apresentacao {
         flex: 2;
 
         h2 {
-            font-size: 45px;
+            font-size: 40px;
             text-align: center;
             color: var(--azul-marinho);
-            font-family: Brush Script MT;
-            margin-bottom: 20px;
+            margin-bottom: 30px;
         }
 
         p {
-            font-family: Comic Sans MS, Comic Sans, cursive;
+            // font-family: Comic Sans MS, Comic Sans, cursive;
+            font-family: Poppins, sans-serif;
             font-size: 18px;
             text-align: justify;
             margin-bottom: 18px;
@@ -71,58 +71,76 @@
 }
 
 .projetos {
+    display: flex;
+    flex-direction: column;
     background-color: var(--azul-marinho);
-    padding: 15px;
+    padding: 30px;
 
-    .projeto-card {
+    .titulo {
+        font-size: 40px;
+        color: white;
+        text-align: center;
+        margin: 30px 0;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+    }
+
+    .projetos-container {
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 800px;
-        margin: 20px auto 20px auto;
-        padding: 25px;
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-        background-color: white;
-        border-radius: 10px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
 
-        img {
-            width: 100%;
-            height: 100%;
-            margin-bottom: 15px;
-        }
+        .projeto-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-sizing: border-box;
+            width: calc(50% - 30px);
+            margin: 15px;
+            padding: 25px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            background-color: white;
+            border-radius: 10px;
 
-        h3 {
-            text-align: center;
-            font-family: Consolas;
-            font-size: 25px;
-            font-weight: 600;
-            margin-bottom: 15px;
-        }
-
-        p {
-            font-family: Consolas;
-            text-align: justify;
-            font-size: 18px;
-            margin-bottom: 25px;
-
-            a {
-                color: rgb(10, 99, 243);
+            img {
+                width: 100%;
+                margin-bottom: 15px;
             }
-        }
 
-        .ver-projeto {
-            font-size: 20px;
-            color: white;
-            background-color: rgb(0, 38, 255);
-            padding: 10px 15px;
-            text-decoration: none;
-            border-radius: 6px;
-            margin-bottom: 15px;
-        }
+            h3 {
+                text-align: center;
+                font-family: Consolas;
+                font-size: 25px;
+                font-weight: 600;
+                margin-bottom: 15px;
+            }
 
-        .ver-repositorio {
-            color: rgb(10, 99, 243);
-            font-size: 18px;
+            p {
+                font-family: Consolas;
+                text-align: justify;
+                font-size: 18px;
+                margin-bottom: 25px;
+
+                a {
+                    color: rgb(10, 99, 243);
+                }
+            }
+
+            .ver-projeto {
+                font-size: 20px;
+                color: white;
+                background-color: rgb(0, 38, 255);
+                padding: 10px 15px;
+                text-decoration: none;
+                border-radius: 6px;
+                margin-bottom: 15px;
+            }
+
+            .ver-repositorio {
+                color: rgb(10, 99, 243);
+                font-size: 18px;
+            }
         }
     }
 }
