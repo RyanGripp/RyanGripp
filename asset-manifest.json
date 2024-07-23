@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/RyanGripp/static/css/main.cbd0f575.css",
-    "main.js": "/RyanGripp/static/js/main.9e028353.js",
+    "main.css": "/RyanGripp/static/css/main.75b2f7f7.css",
+    "main.js": "/RyanGripp/static/js/main.24342125.js",
     "index.html": "/RyanGripp/index.html",
-    "main.cbd0f575.css.map": "/RyanGripp/static/css/main.cbd0f575.css.map",
-    "main.9e028353.js.map": "/RyanGripp/static/js/main.9e028353.js.map"
+    "main.75b2f7f7.css.map": "/RyanGripp/static/css/main.75b2f7f7.css.map",
+    "main.24342125.js.map": "/RyanGripp/static/js/main.24342125.js.map"
   },
   "entrypoints": [
-    "static/css/main.cbd0f575.css",
-    "static/js/main.9e028353.js"
+    "static/css/main.75b2f7f7.css",
+    "static/js/main.24342125.js"
   ]
 }
